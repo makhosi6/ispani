@@ -2,40 +2,157 @@
 <html class="no-js" lang="">
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Ispani</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
 
-  <meta name="theme-color" content="#fafafa">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body class="bg-light">
+    <header class="bg-primary">
+        <nav class="max navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Ispani</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li> -->
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <div class="max row">
+        <div class="bg-light col-8" aria-label="breadcrumb">
+            <ol class="breadcrumb bg-light">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+        </div>
+        <div class="col-4 d-flex justify-content-end">
+            <div class="profile mt-2 mb-1 rounded-circle p-3">
+                <i class="icon-user text-primary"></i>
+            </div>
+
+        </div>
+    </div>
+
+    <main class="max bg-light">
+        <div class="card max bg-light">
+            <div class="card-body">
+                <h5 class="card-title"> Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+                <p class="card-text">With Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia facere illum mollitia? supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+            </div>
+        </div>
+        <div class="card max bg-light">
+            <div class="card-body">
+                <h5 class="card-title"> Card title Lorem, ipsum dolor.</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro id enim provident nobis facere libero molestias eius consequuntur quas quidem! With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+            </div>
+        </div>
+        <div class="card max bg-light">
+            <div class="card-body">
+                <h5 class="card-title"> Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate animi iusto quisquam pariatur voluptas ipsam provident at velit doloremque modi repellat a nulla aspernatur, voluptatem laudantium earum totam dolore atque?
+                    Quasi molestiae aspernatur qui reprehenderit sed aperiam voluptatem officiis?</p>
+                <a href="#" class="btn btn-primary">Button</a>
+            </div>
+        </div>
+
+    </main>
+    <div class="loader">
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <nav class="navbar navbar-dark bg-primary">
+
+            <div class="mb-3 mt-3  text-center max">
+
+                <ul class="socials text-center">
+                    <li>
+                        <i class="icon-phone"></i>
+                    </li>
+                    <li>
+                        <i class="icon-people"></i>
+                    </li>
+                    <li>
+                        <i class="icon-social-facebook"></i>
+                    </li>
+                    <li>
+                        <i class="icon-social-twitter"></i>
+                    </li>
+                    <li>
+                        <i class="icon-social-google"></i>
+                    </li>
+                    <li>
+                        <i class="icon-social-youtube"></i>
+                    </li>
+                    <li>
+                        <i class="icon-social-linkedin"></i>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="text-center max">
+                <p class="mb-3 text-light">© 2020 - ispani</p>
+
+            </div>
+        </nav>
+    </footer>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>

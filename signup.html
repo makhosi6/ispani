@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign in</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body class="text-center" data-gr-c-s-loaded="true">
+    <div class="max mid">
+        <h1 class="h3 mb-4 font-weight-normal">Please create an account</h1>
+        <form>
+            <div class="form-row">
+
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault01">First name</label>
+                    <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefault02">Last name</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationDefaultUsername">Email</label>
+                    <input type="email" id="inputEmail" value="mo@mail.com" class="form-control" placeholder="Email address" required="" autofocus="">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="validationDefault03">City</label>
+                    <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationDefault04">State</label>
+                    <input type="text" class="form-control" id="validationDefault04" placeholder="State" required>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="validationDefault05">Zip</label>
+                    <input type="text" class="form-control" id="validationDefault05" placeholder="Zip" required>
+                </div>
+            </div>
+            <select class="custom-select">
+                    <option selected>Pease select one.</option>
+                    <option value="1">Job seeker</option>
+                    <option value="2">Employer</option>
+                  </select>
+
+            <div class="form-group mt-2">
+                <label for="exampleFormControlTextarea1">Bio/Qualifications</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" checked type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                          Agree to terms and conditions
+                        </label>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+        </form>
+
+    </div>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function() {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'anonymizeIp', true);
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
