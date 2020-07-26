@@ -74,6 +74,7 @@ i {
 }
 
 .max {
+    text-align: center !important;
     max-width: 1000px !important;
     margin: auto !important;
 }
