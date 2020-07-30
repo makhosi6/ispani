@@ -94,6 +94,10 @@ i {
     text-shadow: none;
 }
 
+main {
+    min-height: 45vh;
+}
+
 
 /*
  * A better looking default horizontal rule
@@ -123,11 +127,6 @@ svg,
 video {
     vertical-align: middle;
 }
-
-
-/*
- * Remove default fieldset styles.
- */
 
 fieldset {
     border: 0;
