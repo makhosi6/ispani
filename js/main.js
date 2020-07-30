@@ -8,13 +8,13 @@ function getData() {
      let data = i.splice(400, 300)
       let wrapper = document.querySelector(".articles");
 data.map((o)=>{
-  wrapper.innerHTML += `<div class="card max bg-light">
+  wrapper.innerHTML += `<article class="card max bg-light">
     <div class="card-body">
         <h5 class="card-title">${o.title}</h5>
         <p class="card-text">${o.descriptions}</p>
         <a href="#" class="btn btn-primary">Apply</a>
     </div>
-  </div>`;
+  </article>`;
 });
     })
     .catch(function(error) {
