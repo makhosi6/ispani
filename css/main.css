@@ -45,7 +45,7 @@ i {
 }
 
 .loader {
-    height: 30vh;
+    height: 10vh;
 }
 
 .socials>li {
@@ -94,8 +94,10 @@ i {
     text-shadow: none;
 }
 
-main {
-    min-height: 45vh;
+footer {
+    min-width: 100vw !important;
+    position: sticky !important;
+    bottom: 0% !important;
 }
 
 
@@ -132,6 +134,10 @@ fieldset {
     border: 0;
     margin: 0;
     padding: 0;
+}
+
+main {
+    min-height: calc(85vh - 112px) !important;
 }
 
 
