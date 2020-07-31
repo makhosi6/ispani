@@ -25,3 +25,9 @@ data.map((o)=>{
 getData();
 
 
+/*
+git add .
+git commit -m "31/07/2020"
+git pull
+git push
+*/
